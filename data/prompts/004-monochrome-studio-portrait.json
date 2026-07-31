@@ -1,0 +1,14 @@
+{
+  "id": "004",
+  "slug": "monochrome-studio-portrait",
+  "title": "Monochrome Studio Portrait",
+  "subtitle": "Blanco y negro de estudio con contraste editorial y textura impecable.",
+  "description": "Retrato en blanco y negro de estudio con iluminación dramática y textura de piel de alta fidelidad.",
+  "category": "Blanco y negro",
+  "previewImage": "/images/monochrome-studio-portrait.jpg",
+  "prompt": "Convierte la fotografía en un retrato de estudio en blanco y negro de calidad editorial.\n\nDIRECCIÓN VISUAL:\n- Iluminación tipo Rembrandt: luz clave a 45° creando un triángulo de luz en la mejilla contraria.\n- Fondo neutro en gris oscuro degradado, sin distracciones.\n- Escala de grises con rango tonal completo: negros profundos, medios tonos ricos, blancos limpios sin quemar.\n- Alta fidelidad de textura: poros, líneas de expresión y detalle capilar totalmente preservados.\n- Contraste editorial marcado, similar a retratos de revista en blanco y negro.\n- Encuadre vertical, desde el pecho hacia arriba.\n- Grano fino de película en blanco y negro (estilo Kodak Tri-X).\n\nRESTRICCIONES:\n- No modificar la anatomía ni identidad facial de la persona.\n- No suavizar la piel de forma artificial.\n- Mantener la expresión y pose originales.",
+  "negativePrompt": "color residual, manchas, rostro distorsionado, piel de plástico, ruido excesivo, marca de agua, texto",
+  "compatibleAI": ["ChatGPT", "Gemini", "Claude", "Grok"],
+  "featured": false,
+  "createdAt": "2026-07-01T00:00:00.000Z"
+}

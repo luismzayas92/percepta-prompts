@@ -1,0 +1,14 @@
+{
+  "id": "003",
+  "slug": "golden-hour-close-up",
+  "title": "Golden Hour Close-Up",
+  "subtitle": "Luz cálida de atardecer para primeros planos con calidez natural.",
+  "description": "Primer plano bañado en luz dorada de hora dorada, con reflejos suaves y calidez atmosférica.",
+  "category": "Retrato natural",
+  "previewImage": "/images/golden-hour-close-up.jpg",
+  "prompt": "Genera un primer plano fotorrealista bañado en luz de hora dorada.\n\nDIRECCIÓN VISUAL:\n- Luz solar rasante cálida proveniente de un lateral trasero, creando un halo dorado en el contorno del cabello.\n- Temperatura de color cálida (aprox. 3200-3800K), tonos ámbar y champán dominantes.\n- Fondo desenfocado con destellos de luz natural (bokeh dorado).\n- Encuadre de primer plano, desde los hombros hasta la parte superior de la cabeza.\n- Reflejos suaves de luz en la piel, brillo natural sin apariencia grasa.\n- Mirada relajada, expresión serena.\n- Textura de piel realista conservada en su totalidad.\n\nRESTRICCIONES:\n- No modificar rasgos faciales, edad aparente ni estructura ósea.\n- No añadir maquillaje adicional al que ya está presente.\n- Conservar el color y textura natural del cabello.",
+  "negativePrompt": "rostro alterado, piel plástica, sobreexposición extrema, halo artificial exagerado, distorsión de rasgos, marca de agua",
+  "compatibleAI": ["ChatGPT", "Gemini", "Claude", "Grok"],
+  "featured": false,
+  "createdAt": "2026-07-08T00:00:00.000Z"
+}

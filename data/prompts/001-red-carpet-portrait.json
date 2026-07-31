@@ -1,0 +1,14 @@
+{
+  "id": "001",
+  "slug": "red-carpet-portrait",
+  "title": "Red Carpet Portrait",
+  "subtitle": "Sistema de dirección visual listo para copiar. Compatible con ChatGPT, Gemini, Claude y Grok.",
+  "description": "Retrato editorial de alfombra roja con iluminación de estudio profesional, profundidad cinematográfica y composición de portada de revista.",
+  "category": "Retrato editorial",
+  "previewImage": "/images/red-carpet-portrait.jpg",
+  "prompt": "Genera un retrato fotorrealista de alta gama en estilo 'red carpet editorial'.\n\nDIRECCIÓN VISUAL:\n- Iluminación de estudio de tres puntos: luz clave suave a 45°, luz de relleno tenue, luz de contorno dorada para separar la silueta del fondo.\n- Fondo degradado en tonos obsidiana y azul abismo profundo, ligeramente desenfocado.\n- Composición vertical 4:5, encuadre desde el pecho hacia arriba, mirada directa a cámara.\n- Piel con textura natural conservada: poros visibles, sin suavizado plástico, sin alterar rasgos faciales.\n- Vestuario elegante, tejidos con brillo controlado que capturan reflejos dorados sutiles.\n- Tono de color general: negros profundos, dorado champán en los realces, blancos limpios en los brillos de piel.\n- Profundidad de campo f/1.8 simulada, fondo con bokeh sutil.\n- Grano fotográfico fino, look de cámara de cine digital (ARRI Alexa).\n\nRESTRICCIONES:\n- No modificar la anatomía facial ni la identidad de la persona.\n- No añadir maquillaje, joyería o accesorios no presentes en la foto original.\n- Mantener proporciones corporales reales.",
+  "negativePrompt": "deformado, rasgos alterados, plástico, sobre-suavizado, ojos asimétricos, manos deformes, marca de agua, texto, baja resolución, sobreexpuesto, artefactos de compresión",
+  "compatibleAI": ["ChatGPT", "Gemini", "Claude", "Grok"],
+  "featured": true,
+  "createdAt": "2026-07-15T00:00:00.000Z"
+}
