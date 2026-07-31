@@ -1,0 +1,43 @@
+{
+  "id": "001",
+  "slug": "red-carpet-portrait",
+  "title": "Red Carpet Portrait System™",
+  "subtitle": "Sistema de dirección visual listo para copiar. Compatible con ChatGPT, Gemini, Claude y Grok.",
+  "description": "Retrato editorial de alfombra roja de premiación: sonrisa natural, backdrop de step-and-repeat y estilismo de gala en negro con detalles dorados.",
+  "category": "Retrato editorial",
+  "previewImage": "/images/red-carpet-portrait.png",
+  "prompt": "Genera un retrato fotorrealista de alta gama en estilo 'red carpet editorial', como si la persona estuviera siendo fotografiada en la alfombra roja de una gala de premiación.\n\nFORMATO Y COMPOSICIÓN:\n- Orientación vertical, relación de aspecto aprox. 2:3.\n- Encuadre de primer plano / plano pecho.\n- Sujeto centrado, hombros ligeramente girados en tres cuartos, rostro ocupando la parte superior-media del encuadre.\n- Mirada dirigida fuera de cámara hacia la derecha, no directa al lente.\n\nSUJETO Y EXPRESIÓN:\n- Expresión: sonrisa natural y relajada mostrando los dientes.\n- Pose de cuerpo en tres cuartos con la cabeza girada hacia la derecha.\n- Peinado: corte buzz cut con fade bajo.\n- Vello facial recortado y delineado (barba corta + bigote fino), acorde al estilo de la persona.\n- Piel con acabado natural y un ligero brillo, como el que produce la iluminación de un evento en vivo.\n\nVESTUARIO:\n- Traje de vestir en negro con camisa formal negra y corbata clásica negra.\n- Detalle de cuello: broches metálicos dorados con forma de hoja a ambos lados del cuello de la camisa.\n\nFONDO E ILUMINACIÓN:\n- Fondo tipo step-and-repeat de alfombra roja, oscuro, con logotipos de marca desenfocados y apenas legibles de fondo.\n- Iluminación de evento: luz frontal suave con un ligero contraluz cálido que separa la silueta del fondo oscuro.\n- Profundidad de campo reducida para que el fondo quede fuera de foco respecto al sujeto, nítido en primer plano.\n\nRESTRICCIONES:\n- No modificar la anatomía facial ni los rasgos que hacen reconocible a la persona.\n- No inventar logotipos de marca legibles ni texto nítido en el fondo.\n- Mantener proporciones corporales reales.",
+  "negativePrompt": "deformado, rasgos alterados irreconocibles, plástico, sobre-suavizado, ojos asimétricos, manos deformes, marca de agua, texto nítido inventado, logotipos legibles falsos, baja resolución, sobreexpuesto, artefactos de compresión",
+  "compatibleAI": ["ChatGPT", "Gemini", "Claude", "Grok"],
+  "featured": true,
+  "tier": "premium",
+  "level": "Principiante",
+  "estimatedTime": "2–3 minutos",
+  "includes": [
+    "Prompt maestro (prompt.txt)",
+    "Negative prompt optimizado",
+    "Guía de uso paso a paso (How-to)",
+    "Documentación completa del System (README)",
+    "Imágenes de ejemplo del resultado",
+    "Bonus exclusivo PERCEPTA"
+  ],
+  "faq": [
+    {
+      "question": "¿Qué foto necesito para que funcione bien?",
+      "answer": "Una foto tuya con el rostro visible, bien iluminada y sin lentes oscuros. No necesita ser profesional — una selfie de buena calidad es suficiente."
+    },
+    {
+      "question": "¿Con qué IA funciona mejor?",
+      "answer": "El System está probado en ChatGPT, Gemini, Claude y Grok. ChatGPT (con generación de imágenes) suele dar los resultados más consistentes."
+    },
+    {
+      "question": "¿Puedo usar el resultado comercialmente?",
+      "answer": "Sí, la imagen generada es tuya para usar donde quieras: redes sociales, portafolio, marca personal o materiales de cliente."
+    },
+    {
+      "question": "¿Qué pasa si el resultado no se parece a mí?",
+      "answer": "El prompt incluye restricciones explícitas para preservar tu identidad. Si el modelo se desvía, el How-to incluye ajustes para corregirlo."
+    }
+  ],
+  "createdAt": "2026-07-15T00:00:00.000Z"
+}

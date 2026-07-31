@@ -1,0 +1,43 @@
+{
+  "id": "004",
+  "slug": "monochrome-studio-portrait",
+  "title": "Monochrome Studio Portrait System™",
+  "subtitle": "Blanco y negro de estudio con contraste editorial y textura impecable.",
+  "description": "Retrato en blanco y negro de estudio con iluminación dramática y textura de piel de alta fidelidad.",
+  "category": "Blanco y negro",
+  "previewImage": "/images/monochrome-studio-portrait.png",
+  "prompt": "Convierte la fotografía en un retrato de estudio en blanco y negro de calidad editorial.\n\nDIRECCIÓN VISUAL:\n- Iluminación tipo Rembrandt: luz clave a 45° creando un triángulo de luz en la mejilla contraria.\n- Fondo neutro en gris oscuro degradado, sin distracciones.\n- Escala de grises con rango tonal completo: negros profundos, medios tonos ricos, blancos limpios sin quemar.\n- Alta fidelidad de textura: poros, líneas de expresión y detalle capilar totalmente preservados.\n- Contraste editorial marcado, similar a retratos de revista en blanco y negro.\n- Encuadre vertical, desde el pecho hacia arriba.\n- Grano fino de película en blanco y negro (estilo Kodak Tri-X).\n\nRESTRICCIONES:\n- No modificar la anatomía ni identidad facial de la persona.\n- No suavizar la piel de forma artificial.\n- Mantener la expresión y pose originales.",
+  "negativePrompt": "color residual, manchas, rostro distorsionado, piel de plástico, ruido excesivo, marca de agua, texto",
+  "compatibleAI": ["ChatGPT", "Gemini", "Claude", "Grok"],
+  "featured": false,
+  "tier": "premium",
+  "level": "Intermedio",
+  "estimatedTime": "2–3 minutos",
+  "includes": [
+    "Prompt maestro (prompt.txt)",
+    "Negative prompt optimizado",
+    "Guía de uso paso a paso (How-to)",
+    "Documentación completa del System (README)",
+    "Imágenes de ejemplo del resultado",
+    "Bonus exclusivo PERCEPTA"
+  ],
+  "faq": [
+    {
+      "question": "¿Qué foto necesito para que funcione bien?",
+      "answer": "Una foto a color con buena definición de luces y sombras en el rostro. El sistema se encarga de la conversión y el grading en blanco y negro."
+    },
+    {
+      "question": "¿Con qué IA funciona mejor?",
+      "answer": "Probado en ChatGPT, Gemini, Claude y Grok. Los modelos con buen manejo de contraste dan el resultado editorial más marcado."
+    },
+    {
+      "question": "¿Puedo usar el resultado comercialmente?",
+      "answer": "Sí, la imagen generada es tuya para usar donde quieras: redes sociales, portafolio, marca personal o materiales de cliente."
+    },
+    {
+      "question": "¿Sirve para fotos con poca luz?",
+      "answer": "Funciona mejor con fotos bien iluminadas. El How-to incluye ajustes específicos para fotos con iluminación difícil."
+    }
+  ],
+  "createdAt": "2026-07-01T00:00:00.000Z"
+}

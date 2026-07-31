@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "PERCEPTA PROMPTS™";
+export const alt = "PERCEPTA LAB™";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -65,7 +65,7 @@ export default function Image() {
             lineHeight: 1.05,
           }}
         >
-          PERCEPTA PROMPTS
+          PERCEPTA LAB
         </div>
         <div
           style={{

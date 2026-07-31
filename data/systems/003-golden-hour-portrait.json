@@ -1,0 +1,42 @@
+{
+  "id": "003",
+  "slug": "golden-hour-portrait",
+  "title": "Golden Hour Portrait System™",
+  "subtitle": "Luz cálida de atardecer para primeros planos con calidez natural.",
+  "description": "Primer plano bañado en luz dorada de hora dorada, con reflejos suaves y calidez atmosférica.",
+  "category": "Retrato natural",
+  "previewImage": "/images/golden-hour-close-up.png",
+  "prompt": "Genera un primer plano fotorrealista bañado en luz de hora dorada.\n\nDIRECCIÓN VISUAL:\n- Luz solar rasante cálida proveniente de un lateral trasero, creando un halo dorado en el contorno del cabello.\n- Temperatura de color cálida (aprox. 3200-3800K), tonos ámbar y champán dominantes.\n- Fondo desenfocado con destellos de luz natural (bokeh dorado).\n- Encuadre de primer plano, desde los hombros hasta la parte superior de la cabeza.\n- Reflejos suaves de luz en la piel, brillo natural sin apariencia grasa.\n- Mirada relajada, expresión serena.\n- Textura de piel realista conservada en su totalidad.\n\nRESTRICCIONES:\n- No modificar rasgos faciales, edad aparente ni estructura ósea.\n- No añadir maquillaje adicional al que ya está presente.\n- Conservar el color y textura natural del cabello.",
+  "negativePrompt": "rostro alterado, piel plástica, sobreexposición extrema, halo artificial exagerado, distorsión de rasgos, marca de agua",
+  "compatibleAI": ["ChatGPT", "Gemini", "Claude", "Grok"],
+  "featured": true,
+  "tier": "free",
+  "level": "Principiante",
+  "estimatedTime": "1–2 minutos",
+  "includes": [
+    "Prompt maestro (prompt.txt)",
+    "Negative prompt optimizado",
+    "Guía de uso paso a paso (How-to)",
+    "Documentación completa del System (README)",
+    "Imagen de ejemplo del resultado"
+  ],
+  "faq": [
+    {
+      "question": "¿Realmente es gratis?",
+      "answer": "Sí, completo y sin costo. Es la mejor forma de probar la calidad de un System de PERCEPTA antes de invertir en los Premium."
+    },
+    {
+      "question": "¿Qué foto necesito?",
+      "answer": "Una foto tuya reciente con buena luz y el rostro visible. Entre más nítida la foto, mejor el resultado."
+    },
+    {
+      "question": "¿Con qué IA funciona mejor?",
+      "answer": "Probado en ChatGPT, Gemini, Claude y Grok — funciona bien en cualquiera de los cuatro."
+    },
+    {
+      "question": "¿Hay diferencia con los Systems Premium?",
+      "answer": "Los Premium incluyen dirección visual más elaborada (vestuario, fondos de evento, grading avanzado) y documentación extendida con bonus exclusivos."
+    }
+  ],
+  "createdAt": "2026-07-08T00:00:00.000Z"
+}

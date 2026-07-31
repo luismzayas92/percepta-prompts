@@ -1,0 +1,43 @@
+{
+  "id": "002",
+  "slug": "cinematic-editorial-portrait",
+  "title": "Cinematic Editorial Portrait System™",
+  "subtitle": "Look de fotograma de cine para retratos con profundidad narrativa.",
+  "description": "Retrato con estética de fotograma cinematográfico, contraste tonal marcado y composición asimétrica.",
+  "category": "Retrato cinematográfico",
+  "previewImage": "/images/cinematic-editorial-portrait.png",
+  "prompt": "Transforma la fotografía en un retrato con estética de fotograma cinematográfico.\n\nDIRECCIÓN VISUAL:\n- Grading de color tipo teal & orange atenuado, sombras con matiz azulado, piel con calidez natural.\n- Iluminación motivada, como si proviniera de una fuente lateral fuera de cuadro (ventana o práctica en escena).\n- Composición siguiendo la regla de tercios, sujeto desplazado hacia un lateral del encuadre.\n- Relación de aspecto cinematográfica 2.39:1 o 4:5 según el contexto de uso.\n- Contraste elevado en sombras, altas luces controladas sin quemar detalle.\n- Textura de piel realista, conservando poros y micro-detalle.\n- Grano de película sutil, viñeteado suave en los bordes.\n\nRESTRICCIONES:\n- No alterar la identidad ni la estructura facial de la persona.\n- Mantener la expresión y pose original.\n- No introducir elementos u objetos que no estén en la imagen fuente.",
+  "negativePrompt": "rostro distorsionado, rasgos irreales, sobreexposición, manchas de color, baja fidelidad, marca de agua, texto sobrepuesto",
+  "compatibleAI": ["ChatGPT", "Gemini", "Claude", "Grok"],
+  "featured": false,
+  "tier": "premium",
+  "level": "Intermedio",
+  "estimatedTime": "2–3 minutos",
+  "includes": [
+    "Prompt maestro (prompt.txt)",
+    "Negative prompt optimizado",
+    "Guía de uso paso a paso (How-to)",
+    "Documentación completa del System (README)",
+    "Imágenes de ejemplo del resultado",
+    "Bonus exclusivo PERCEPTA"
+  ],
+  "faq": [
+    {
+      "question": "¿Qué foto necesito para que funcione bien?",
+      "answer": "Una foto tuya con buena luz frontal y el rostro despejado. El sistema añade la iluminación cinematográfica, no la necesitas en la foto original."
+    },
+    {
+      "question": "¿Con qué IA funciona mejor?",
+      "answer": "Probado en ChatGPT, Gemini, Claude y Grok. El grading teal & orange se conserva mejor en modelos con generación de imagen nativa."
+    },
+    {
+      "question": "¿Puedo usar el resultado comercialmente?",
+      "answer": "Sí, la imagen generada es tuya para usar donde quieras: redes sociales, portafolio, marca personal o materiales de cliente."
+    },
+    {
+      "question": "¿Sirve para fotos de cuerpo completo?",
+      "answer": "Está optimizado para retrato (pecho hacia arriba). El How-to incluye una variante para planos más abiertos."
+    }
+  ],
+  "createdAt": "2026-07-12T00:00:00.000Z"
+}

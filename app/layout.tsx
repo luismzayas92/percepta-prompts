@@ -14,15 +14,16 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "PERCEPTA PROMPTS™",
-    template: "%s — PERCEPTA PROMPTS™",
+    default: "PERCEPTA LAB™",
+    template: "%s — PERCEPTA LAB™",
   },
   description:
-    "Biblioteca premium de sistemas de dirección visual desarrollados por PERCEPTA.",
+    "Systems™ de dirección visual premium desarrollados por PERCEPTA. Descubre, compra y descarga.",
   keywords: [
     "PERCEPTA",
+    "PERCEPTA LAB",
     "prompts de IA",
-    "prompts premium",
+    "Systems de IA",
     "dirección visual",
     "ChatGPT",
     "Midjourney",
@@ -36,16 +37,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_ES",
     url: SITE_URL,
-    siteName: "PERCEPTA PROMPTS™",
-    title: "PERCEPTA PROMPTS™",
+    siteName: "PERCEPTA LAB™",
+    title: "PERCEPTA LAB™",
     description:
-      "Biblioteca premium de sistemas de dirección visual desarrollados por PERCEPTA.",
+      "Systems™ de dirección visual premium desarrollados por PERCEPTA. Descubre, compra y descarga.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "PERCEPTA PROMPTS™",
+    title: "PERCEPTA LAB™",
     description:
-      "Biblioteca premium de sistemas de dirección visual desarrollados por PERCEPTA.",
+      "Systems™ de dirección visual premium desarrollados por PERCEPTA. Descubre, compra y descarga.",
   },
 };
 
