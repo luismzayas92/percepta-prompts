@@ -1,20 +1,26 @@
 @import "tailwindcss";
 
 :root {
-  --color-obsidian: #0a0a0b;
-  --color-abyss: #0c1428;
-  --color-gold: #d4b483;
-  --color-silver: #c7ccd4;
+  --color-void: #06071a;
+  --color-depth: #1a1d3b;
+  --color-frost: #eceef7;
+  --color-haze: #8fa4d4;
+  --color-signal: #5e7ce0;
+  --color-teal: #0e7490;
+  --color-sandy: #e19c63;
 
-  --background: var(--color-obsidian);
-  --foreground: #ffffff;
+  --background: var(--color-void);
+  --foreground: var(--color-frost);
 }
 
 @theme inline {
-  --color-obsidian: var(--color-obsidian);
-  --color-abyss: var(--color-abyss);
-  --color-gold: var(--color-gold);
-  --color-silver: var(--color-silver);
+  --color-void: var(--color-void);
+  --color-depth: var(--color-depth);
+  --color-frost: var(--color-frost);
+  --color-haze: var(--color-haze);
+  --color-signal: var(--color-signal);
+  --color-teal: var(--color-teal);
+  --color-sandy: var(--color-sandy);
 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -52,8 +58,8 @@ html {
 body {
   background: radial-gradient(
       circle at 50% -10%,
-      rgba(12, 20, 40, 0.55) 0%,
-      rgba(10, 10, 11, 0) 55%
+      rgba(26, 29, 59, 0.55) 0%,
+      rgba(6, 7, 26, 0) 55%
     ),
     var(--background);
   color: var(--foreground);
@@ -62,19 +68,19 @@ body {
 }
 
 ::selection {
-  background: rgba(212, 180, 131, 0.28);
-  color: #ffffff;
+  background: rgba(94, 124, 224, 0.3);
+  color: var(--color-frost);
 }
 
 .glass {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(236, 238, 247, 0.03);
+  border: 1px solid rgba(236, 238, 247, 0.08);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
 
 .focus-ring:focus-visible {
-  outline: 2px solid var(--color-gold);
+  outline: 2px solid var(--color-signal);
   outline-offset: 3px;
   border-radius: 6px;
 }
@@ -83,12 +89,12 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--color-obsidian);
+  background: var(--color-void);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(236, 238, 247, 0.12);
   border-radius: 999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(212, 180, 131, 0.35);
+  background: rgba(94, 124, 224, 0.35);
 }

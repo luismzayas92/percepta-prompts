@@ -81,18 +81,18 @@ export default async function PromptPage({
                   sizes="(min-width: 1024px) 45vw, 90vw"
                   className="object-cover"
                 />
-                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-obsidian/40 via-transparent to-transparent" />
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-void/40 via-transparent to-transparent" />
               </div>
             </div>
 
             <div>
-              <p className="mb-5 text-xs font-medium tracking-[0.22em] text-gold">
+              <p className="mb-5 text-xs font-medium tracking-[0.22em] text-haze">
                 {prompt.category.toUpperCase()}
               </p>
-              <h1 className="text-balance text-4xl font-bold leading-[1.08] tracking-tight text-white sm:text-5xl">
+              <h1 className="text-balance text-4xl font-bold leading-[1.08] tracking-tight text-frost sm:text-5xl">
                 {prompt.title}
               </h1>
-              <p className="mt-6 text-lg leading-relaxed text-silver">
+              <p className="mt-6 text-lg leading-relaxed text-haze">
                 {prompt.description}
               </p>
 
@@ -122,7 +122,7 @@ export default async function PromptPage({
       {related.length > 0 && (
         <Section className="pt-0">
           <Container>
-            <p className="mb-8 text-xs font-medium tracking-[0.22em] text-gold">
+            <p className="mb-8 text-xs font-medium tracking-[0.22em] text-haze">
               TAMBIÉN TE PUEDE INTERESAR
             </p>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

@@ -17,23 +17,23 @@ export default function LibraryPage() {
     <Section className="pt-16">
       <Container>
         <div className="mb-16 max-w-2xl">
-          <p className="mb-4 text-xs font-medium tracking-[0.22em] text-gold">
+          <p className="mb-4 text-xs font-medium tracking-[0.22em] text-haze">
             LIBRARY
           </p>
-          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+          <h1 className="text-4xl font-bold tracking-tight text-frost sm:text-5xl">
             Toda la biblioteca de prompts.
           </h1>
-          <p className="mt-5 text-lg leading-relaxed text-silver">
+          <p className="mt-5 text-lg leading-relaxed text-haze">
             Sistemas de dirección visual listos para copiar, probados en
             ChatGPT, Gemini, Claude y Grok.
           </p>
         </div>
 
         {prompts.length === 0 ? (
-          <p className="text-silver">
+          <p className="text-haze">
             Aún no hay prompts publicados. Añade un archivo{" "}
-            <code className="text-gold">.json</code> en{" "}
-            <code className="text-gold">/data/prompts</code>.
+            <code className="text-teal">.json</code> en{" "}
+            <code className="text-teal">/data/prompts</code>.
           </p>
         ) : (
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">

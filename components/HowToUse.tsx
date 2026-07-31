@@ -29,10 +29,10 @@ export default function HowToUse() {
     <Section>
       <Container>
         <div className="mb-14 max-w-xl">
-          <p className="mb-4 text-xs font-medium tracking-[0.22em] text-gold">
+          <p className="mb-4 text-xs font-medium tracking-[0.22em] text-haze">
             CÓMO USAR
           </p>
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-frost sm:text-4xl">
             Tres pasos hacia una imagen de dirección impecable.
           </h2>
         </div>

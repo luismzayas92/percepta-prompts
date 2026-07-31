@@ -17,9 +17,9 @@ export default function Home() {
   if (!heroPrompt) {
     return (
       <Container>
-        <div className="py-32 text-center text-silver">
+        <div className="py-32 text-center text-haze">
           Añade tu primer prompt en{" "}
-          <code className="text-gold">/data/prompts</code>.
+          <code className="text-teal">/data/prompts</code>.
         </div>
       </Container>
     );
@@ -47,16 +47,16 @@ export default function Home() {
           <Container>
             <div className="mb-14 flex items-end justify-between">
               <div>
-                <p className="mb-4 text-xs font-medium tracking-[0.22em] text-gold">
+                <p className="mb-4 text-xs font-medium tracking-[0.22em] text-haze">
                   BIBLIOTECA
                 </p>
-                <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                <h2 className="text-3xl font-bold tracking-tight text-frost sm:text-4xl">
                   Más sistemas de dirección visual.
                 </h2>
               </div>
               <Link
                 href="/library"
-                className="focus-ring hidden items-center gap-1.5 text-sm font-medium text-silver transition-colors hover:text-white sm:flex"
+                className="focus-ring hidden items-center gap-1.5 text-sm font-medium text-haze transition-colors hover:text-frost sm:flex"
               >
                 Ver todos
                 <ArrowRight className="h-4 w-4" />

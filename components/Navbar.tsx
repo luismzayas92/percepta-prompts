@@ -16,7 +16,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/[0.06] bg-obsidian/70 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-frost/[0.06] bg-void/70 backdrop-blur-xl">
       <Container className="flex h-20 items-center justify-between">
         <Link
           href="/"
@@ -25,10 +25,10 @@ export default function Navbar() {
         >
           <Logo />
           <span className="flex flex-col leading-none">
-            <span className="text-[13px] font-semibold tracking-[0.22em] text-white">
+            <span className="text-[13px] font-semibold tracking-[0.22em] text-frost">
               PERCEPTA
             </span>
-            <span className="text-[9px] font-medium tracking-[0.18em] text-silver/70">
+            <span className="text-[9px] font-medium tracking-[0.18em] text-haze/70">
               DISEÑAMOS PERCEPCIÓN
             </span>
           </span>
@@ -48,12 +48,12 @@ export default function Navbar() {
                     aria-current={active ? "page" : undefined}
                     className={cn(
                       "focus-ring relative text-sm font-medium tracking-tight transition-colors duration-200",
-                      active ? "text-white" : "text-silver hover:text-white"
+                      active ? "text-frost" : "text-haze hover:text-frost"
                     )}
                   >
                     {link.label}
                     {active && (
-                      <span className="absolute -bottom-[29px] left-0 h-px w-full bg-gold" />
+                      <span className="absolute -bottom-[29px] left-0 h-px w-full bg-signal" />
                     )}
                   </Link>
                 </li>

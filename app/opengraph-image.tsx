@@ -17,7 +17,7 @@ export default function Image() {
           justifyContent: "center",
           padding: "90px",
           background:
-            "radial-gradient(circle at 60% 20%, #0C1428 0%, #0A0A0B 60%)",
+            "radial-gradient(circle at 60% 20%, #1A1D3B 0%, #06071A 60%)",
         }}
       >
         <div
@@ -33,13 +33,13 @@ export default function Image() {
               width: 52,
               height: 52,
               borderRadius: 13,
-              border: "1.5px solid #D4B483",
+              border: "1.5px solid #5E7CE0",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
               fontSize: 24,
               fontWeight: 700,
-              color: "#D4B483",
+              color: "#5E7CE0",
             }}
           >
             P
@@ -48,7 +48,7 @@ export default function Image() {
             style={{
               fontSize: 22,
               letterSpacing: 6,
-              color: "#FFFFFF",
+              color: "#ECEEF7",
               fontWeight: 700,
             }}
           >
@@ -59,7 +59,7 @@ export default function Image() {
           style={{
             fontSize: 76,
             fontWeight: 700,
-            color: "#FFFFFF",
+            color: "#ECEEF7",
             letterSpacing: -2,
             display: "flex",
             lineHeight: 1.05,
@@ -70,7 +70,7 @@ export default function Image() {
         <div
           style={{
             fontSize: 30,
-            color: "#C7CCD4",
+            color: "#8FA4D4",
             marginTop: 28,
             display: "flex",
           }}

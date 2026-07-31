@@ -29,7 +29,7 @@ export default function PromptCard({
           transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
           className="glass overflow-hidden rounded-2xl"
         >
-          <div className="relative aspect-[4/5] w-full overflow-hidden bg-abyss">
+          <div className="relative aspect-[4/5] w-full overflow-hidden bg-depth">
             <Image
               src={prompt.previewImage}
               alt={prompt.title}
@@ -37,17 +37,17 @@ export default function PromptCard({
               sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
               className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/10 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-void via-void/10 to-transparent" />
             {prompt.featured && (
-              <span className="absolute left-4 top-4 rounded-full bg-gold/90 px-3 py-1 text-[10px] font-bold tracking-[0.12em] text-obsidian">
+              <span className="absolute left-4 top-4 rounded-full bg-signal/90 px-3 py-1 text-[10px] font-bold tracking-[0.12em] text-frost">
                 FEATURED
               </span>
             )}
             <div className="absolute bottom-0 left-0 right-0 p-5">
-              <p className="mb-1 text-[10px] font-medium tracking-[0.18em] text-gold/80">
+              <p className="mb-1 text-[10px] font-medium tracking-[0.18em] text-haze">
                 {prompt.category.toUpperCase()}
               </p>
-              <h3 className="flex items-center gap-1.5 text-base font-semibold tracking-tight text-white">
+              <h3 className="flex items-center gap-1.5 text-base font-semibold tracking-tight text-frost">
                 {prompt.title}
                 <ArrowUpRight className="h-4 w-4 shrink-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
               </h3>

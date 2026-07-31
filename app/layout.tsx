@@ -56,7 +56,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={`${inter.variable} h-full dark`}>
-      <body className="min-h-full flex flex-col bg-obsidian text-white antialiased">
+      <body className="min-h-full flex flex-col bg-void text-frost antialiased">
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

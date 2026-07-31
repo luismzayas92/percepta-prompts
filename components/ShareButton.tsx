@@ -42,7 +42,7 @@ export default function ShareButton({
       whileTap={{ scale: 0.98 }}
       transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
       className={cn(
-        "focus-ring glass inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-semibold tracking-tight text-white transition-colors duration-300 hover:bg-white/[0.06]",
+        "focus-ring glass inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-semibold tracking-tight text-frost transition-colors duration-300 hover:bg-frost/[0.06]",
         className
       )}
     >

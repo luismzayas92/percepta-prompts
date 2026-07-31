@@ -14,13 +14,13 @@ export default function AboutPage() {
     <Section className="pt-16">
       <Container>
         <div className="max-w-3xl">
-          <p className="mb-4 text-xs font-medium tracking-[0.22em] text-gold">
+          <p className="mb-4 text-xs font-medium tracking-[0.22em] text-haze">
             ABOUT
           </p>
-          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+          <h1 className="text-4xl font-bold tracking-tight text-frost sm:text-5xl">
             Diseñamos percepción.
           </h1>
-          <p className="mt-8 text-lg leading-relaxed text-silver">
+          <p className="mt-8 text-lg leading-relaxed text-haze">
             PERCEPTA es un estudio de dirección visual especializado en
             sistemas de generación de imagen con inteligencia artificial.
             Cada prompt de esta biblioteca es un sistema de dirección
@@ -29,7 +29,7 @@ export default function AboutPage() {
             consistentes y de calidad editorial en cualquier modelo
             generativo compatible.
           </p>
-          <p className="mt-6 text-lg leading-relaxed text-silver">
+          <p className="mt-6 text-lg leading-relaxed text-haze">
             No vendemos filtros. Vendemos criterio visual, empaquetado en
             texto, listo para copiar.
           </p>

@@ -21,13 +21,13 @@ export default function Hero({ prompt, shareUrl }: { prompt: Prompt; shareUrl: s
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: EASE }}
           >
-            <p className="mb-5 text-xs font-medium tracking-[0.22em] text-gold">
+            <p className="mb-5 text-xs font-medium tracking-[0.22em] text-haze">
               {prompt.category.toUpperCase()}
             </p>
-            <h1 className="text-balance text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl">
+            <h1 className="text-balance text-5xl font-bold leading-[1.05] tracking-tight text-frost sm:text-6xl">
               {prompt.title}
             </h1>
-            <p className="mt-6 max-w-md text-balance text-lg leading-relaxed text-silver">
+            <p className="mt-6 max-w-md text-balance text-lg leading-relaxed text-haze">
               {prompt.subtitle ?? prompt.description}
             </p>
 
@@ -54,9 +54,9 @@ export default function Hero({ prompt, shareUrl }: { prompt: Prompt; shareUrl: s
                 sizes="(min-width: 1024px) 45vw, 90vw"
                 className="object-cover"
               />
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-obsidian/40 via-transparent to-transparent" />
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-void/40 via-transparent to-transparent" />
             </div>
-            <div className="pointer-events-none absolute -inset-6 -z-10 rounded-[2.5rem] bg-gold/10 blur-3xl" />
+            <div className="pointer-events-none absolute -inset-6 -z-10 rounded-[2.5rem] bg-sandy/10 blur-3xl" />
           </motion.div>
         </div>
       </Container>

@@ -8,10 +8,10 @@ type Variant = "primary" | "secondary" | "ghost";
 
 const variants: Record<Variant, string> = {
   primary:
-    "bg-gold text-obsidian shadow-[0_1px_0_0_rgba(255,255,255,0.4)_inset,0_8px_24px_-8px_rgba(212,180,131,0.5)] hover:brightness-[1.06]",
+    "bg-signal text-frost shadow-[0_1px_0_0_rgba(255,255,255,0.25)_inset,0_8px_24px_-8px_rgba(94,124,224,0.55)] hover:brightness-[1.08]",
   secondary:
-    "glass text-white hover:bg-white/[0.06] hover:border-white/[0.14]",
-  ghost: "text-silver hover:text-white",
+    "glass text-frost hover:bg-frost/[0.06] hover:border-frost/[0.14]",
+  ghost: "text-haze hover:text-frost",
 };
 
 interface ButtonBaseProps {

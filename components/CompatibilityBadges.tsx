@@ -22,11 +22,11 @@ export default function CompatibilityBadges({
           key={model}
           className="glass flex items-center gap-2.5 rounded-full px-4 py-2"
         >
-          <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white/[0.06] text-[9px] font-bold tracking-tight text-gold">
+          <span className="flex h-6 w-6 items-center justify-center rounded-full bg-frost/[0.06] text-[9px] font-bold tracking-tight text-haze">
             {AI_INITIALS[model] ?? model.slice(0, 3).toUpperCase()}
           </span>
-          <span className="text-xs font-medium text-silver">{model}</span>
-          <span className="text-[10px] font-medium tracking-wide text-silver/40">
+          <span className="text-xs font-medium text-haze">{model}</span>
+          <span className="text-[10px] font-medium tracking-wide text-haze/40">
             Compatible
           </span>
         </li>
