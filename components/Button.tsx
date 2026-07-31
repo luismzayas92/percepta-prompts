@@ -8,7 +8,7 @@ type Variant = "primary" | "secondary" | "ghost";
 
 const variants: Record<Variant, string> = {
   primary:
-    "bg-gradient-to-b from-[#f0dfb8] via-gold to-[#b6935f] text-obsidian shadow-[0_1px_0_0_rgba(255,255,255,0.4)_inset,0_8px_24px_-8px_rgba(212,180,131,0.5)] hover:brightness-[1.06]",
+    "bg-gold text-obsidian shadow-[0_1px_0_0_rgba(255,255,255,0.4)_inset,0_8px_24px_-8px_rgba(212,180,131,0.5)] hover:brightness-[1.06]",
   secondary:
     "glass text-white hover:bg-white/[0.06] hover:border-white/[0.14]",
   ghost: "text-silver hover:text-white",

@@ -73,13 +73,6 @@ body {
   -webkit-backdrop-filter: blur(20px);
 }
 
-.text-gradient-gold {
-  background: linear-gradient(135deg, #f0dfb8 0%, #d4b483 50%, #b6935f 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
 .focus-ring:focus-visible {
   outline: 2px solid var(--color-gold);
   outline-offset: 3px;

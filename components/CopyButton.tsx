@@ -34,7 +34,7 @@ export default function CopyButton({
 
   const base =
     variant === "primary"
-      ? "px-6 py-3.5 text-sm rounded-full bg-gradient-to-b from-[#f0dfb8] via-gold to-[#b6935f] text-obsidian shadow-[0_1px_0_0_rgba(255,255,255,0.4)_inset,0_8px_24px_-8px_rgba(212,180,131,0.5)]"
+      ? "px-6 py-3.5 text-sm rounded-full bg-gold text-obsidian shadow-[0_1px_0_0_rgba(255,255,255,0.4)_inset,0_8px_24px_-8px_rgba(212,180,131,0.5)]"
       : "px-4 py-2 text-xs rounded-lg glass text-silver hover:text-white";
 
   return (
