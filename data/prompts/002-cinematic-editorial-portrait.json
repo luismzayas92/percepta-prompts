@@ -5,7 +5,7 @@
   "subtitle": "Look de fotograma de cine para retratos con profundidad narrativa.",
   "description": "Retrato con estética de fotograma cinematográfico, contraste tonal marcado y composición asimétrica.",
   "category": "Retrato cinematográfico",
-  "previewImage": "/images/cinematic-editorial-portrait.jpg",
+  "previewImage": "/images/cinematic-editorial-portrait.png",
   "prompt": "Transforma la fotografía en un retrato con estética de fotograma cinematográfico.\n\nDIRECCIÓN VISUAL:\n- Grading de color tipo teal & orange atenuado, sombras con matiz azulado, piel con calidez natural.\n- Iluminación motivada, como si proviniera de una fuente lateral fuera de cuadro (ventana o práctica en escena).\n- Composición siguiendo la regla de tercios, sujeto desplazado hacia un lateral del encuadre.\n- Relación de aspecto cinematográfica 2.39:1 o 4:5 según el contexto de uso.\n- Contraste elevado en sombras, altas luces controladas sin quemar detalle.\n- Textura de piel realista, conservando poros y micro-detalle.\n- Grano de película sutil, viñeteado suave en los bordes.\n\nRESTRICCIONES:\n- No alterar la identidad ni la estructura facial de la persona.\n- Mantener la expresión y pose original.\n- No introducir elementos u objetos que no estén en la imagen fuente.",
   "negativePrompt": "rostro distorsionado, rasgos irreales, sobreexposición, manchas de color, baja fidelidad, marca de agua, texto sobrepuesto",
   "compatibleAI": ["ChatGPT", "Gemini", "Claude", "Grok"],
